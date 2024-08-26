@@ -6,6 +6,7 @@ import java.util.Scanner;
  */
 public class MenuPrincipal {
     public static void main(String[] args) {
+        System.out.print("hola");
         BeneficiarioManager.inicializarDatosBE();
         ServicioManager.inicializarDatosSE();
         Scanner scanner = new Scanner(System.in);
